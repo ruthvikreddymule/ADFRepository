@@ -1,0 +1,93 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "LearnADF-Ruthvik"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureGen2Source_accountKey": {
+			"value": ""
+		},
+		"DS_Source_adls_accountKey": {
+			"value": ""
+		},
+		"Gen2New_accountKey": {
+			"value": ""
+		},
+		"LS_ADB_accessToken": {
+			"value": ""
+		},
+		"LS_ADLS_newgen2storageadls_accountKey": {
+			"value": ""
+		},
+		"LS_AZ_SQL_password": {
+			"value": ""
+		},
+		"LS_AzureSQLDB_password": {
+			"value": ""
+		},
+		"LS_BlobSink_connectionString": {
+			"value": ""
+		},
+		"LS_BlobSource_connectionString": {
+			"value": ""
+		},
+		"LS_BlobSource_Gen2_accountKey": {
+			"value": ""
+		},
+		"LS_CopyActivity_accountKey": {
+			"value": ""
+		},
+		"LS_Gen2Main_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://newgen2storageadls.dfs.core.windows.net/"
+		},
+		"AzureGen2Source_properties_typeProperties_url": {
+			"value": "https://devgen2sa2025.dfs.core.windows.net/"
+		},
+		"DS_Source_adls_properties_typeProperties_url": {
+			"value": "https://newgen2storageadls.dfs.core.windows.net/"
+		},
+		"Gen2New_properties_typeProperties_url": {
+			"value": "https://devgen2sa2025.dfs.core.windows.net/"
+		},
+		"LS_ADB_properties_typeProperties_existingClusterId": {
+			"value": "0907-173844-zbyl8bja"
+		},
+		"LS_ADLS_newgen2storageadls_properties_typeProperties_url": {
+			"value": "https://newgen2storageadls.dfs.core.windows.net/"
+		},
+		"LS_AZ_SQL_properties_typeProperties_server": {
+			"value": "clc-adf-test-2025.database.windows.net"
+		},
+		"LS_AZ_SQL_properties_typeProperties_database": {
+			"value": "AzureSQLDB"
+		},
+		"LS_AZ_SQL_properties_typeProperties_userName": {
+			"value": "sqladmin-adf-2025"
+		},
+		"LS_AzureSQLDB_properties_typeProperties_server": {
+			"value": "clc-adf-test-2025.database.windows.net"
+		},
+		"LS_AzureSQLDB_properties_typeProperties_database": {
+			"value": "AzureSQLDB"
+		},
+		"LS_AzureSQLDB_properties_typeProperties_userName": {
+			"value": "sqladmin-adf-2025"
+		},
+		"LS_BlobSource_Gen2_properties_typeProperties_url": {
+			"value": "https://devgen2sa2025.dfs.core.windows.net/"
+		},
+		"LS_CopyActivity_properties_typeProperties_url": {
+			"value": "https://devgen2sa2025.dfs.core.windows.net/"
+		},
+		"LS_Gen2Main_properties_typeProperties_url": {
+			"value": "https://newgen2storageadls.dfs.core.windows.net/"
+		}
+	}
+}
