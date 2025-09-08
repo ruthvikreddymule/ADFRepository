@@ -1,0 +1,9 @@
+{
+	"name": "LearnADF-Ruthvik",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5d24c89a-493d-4837-a048-6e6f640c5f1f",
+		"tenantId": "0fccd6b8-08d4-4d7d-83ec-dc02c8b382a7"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name": "DataBricksTestPipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "NoteBookActivityTesting",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/ruthvikreddymule@gmail.com/Raja ABD Notebook1"
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_ADB",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-09-07T17:50:12Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
